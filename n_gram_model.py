@@ -102,7 +102,7 @@ class NGramModel:
 		length -= 1
 		while (length > 0):
 			if index >= len(self.array_of_ngrams):
-				print("Did not found such word")
+				print("Did not find such word")
 				return
 			if prefix in self.array_of_ngrams[index]:
 				entry_point = self.array_of_ngrams[index]
